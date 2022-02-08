@@ -21,7 +21,7 @@ function new_game(){
     hide(Game_Player);
     hide(Game_Computer);
     Game1result.innerHTML=''
-    Game2result.innerHTML="Je trouverais ton nombre"
+    Game2result.innerHTML="Je vais trouver ton nombre"
     player_input.value='';
 }
 
@@ -79,6 +79,7 @@ function start_computer_guess_game(){
     bigger.addEventListener('click',(event)=>{its_bigger()});
     restart2.addEventListener('click',(event)=>{location.reload()});
     found.addEventListener('click',(event)=>{
+
         Game2result.innerHTML="J'ai trouvé";
         show(restart2);
         hide(small);

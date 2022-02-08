@@ -1,10 +1,10 @@
-.button:hover{
-    background-color:dodgerblue;
-}
-
 .text{
     font-family: sans-serif;
     font-size: 25px;
+}
+
+.button:hover{
+    background-color:dodgerblue;
 }
 
 body{
